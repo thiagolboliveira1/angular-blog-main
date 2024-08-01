@@ -1,0 +1,61 @@
+header {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer Container */
+footer {
+   /* Cor de fundo do footer */
+  color: #ffffff; /* Cor do texto */
+  text-align: end; /* Alinha o texto ao centro */
+  padding: 0px 0; /* Espaçamento interno */
+  position: relative; /* Posicionamento para suporte ao posicionamento absoluto dos elementos dentro do footer */
+  bottom: 0; /* Fixa o footer no fundo da página */
+  width: 100%; /* Largura total da página */
+  box-shadow: 0 -2px 5px rgba(104, 104, 104, 0.187); /* Sombra sutil para o footer */
+  text-align: center;
+}
+
+/* Links dentro do footer */
+footer a {
+  color: #61dafb; /* Cor dos links */
+  text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Sublinha os links ao passar o mouse */
+}
+
+/* Conteúdo do footer */
+.footer-content {
+  max-width: 1200px; /* Largura máxima do conteúdo */
+  margin: 0 auto; /* Centraliza o conteúdo */
+  padding: 0 20px; /* Espaçamento interno lateral */
+}
+
+.footer-content p {
+  margin: 0; /* Remove a margem do parágrafo */
+  font-size: 10px;
+}
+
+/* Links de redes sociais */
+.social-links {
+  list-style: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o padding da lista */
+  margin: 0px 0; /* Margem acima e abaixo dos links */
+}
+
+.social-links li {
+  display: inline; /* Exibe os itens da lista na horizontal */
+  margin: 0 10px; /* Espaçamento lateral entre os itens */
+}
+
+.social-links a {
+  font-size: 10px; /* Tamanho da fonte dos ícones de redes sociais */
+  color: #61dafb; /* Cor dos ícones de redes sociais */
+}
+
+.social-links a:hover {
+  color: #ffffff; /* Cor dos ícones ao passar o mouse */
+}
